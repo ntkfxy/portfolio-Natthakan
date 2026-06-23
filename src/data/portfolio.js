@@ -4,7 +4,7 @@ import { MdAnalytics } from 'react-icons/md'
 import storemate from "../assets/img/storemate.png"
 import QAIntern from "../assets/resume/Natthakan_Jamratphum_QAIntern.pdf"
 import BAIntern from "../assets/resume/Natthakan_Jamratphum_BAInternship_Resume.pdf"
-import TranScript from "../assets/resume/Natthakan_Jamratphum_BAInternship_Resume.pdf"
+import TranScript from "../assets/resume/Natthakan_Jamratphum_Eng_Transcript.pdf"
 
 export const profile = {
   name: 'Natthakan Jamratphum',
