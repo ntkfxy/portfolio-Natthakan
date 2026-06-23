@@ -2,16 +2,21 @@ import { FaReact, FaGitAlt, FaFigma, FaBug } from 'react-icons/fa'
 import { SiJavascript, SiTailwindcss, SiPostman, SiJira, SiMysql } from 'react-icons/si'
 import { MdAnalytics } from 'react-icons/md'
 import storemate from "../assets/img/storemate.png"
+import portfolio from "../assets/img/portfolio.png"
+import mernChat from "../assets/img/mernChat.png"
 import QAIntern from "../assets/resume/Natthakan_Jamratphum_QAIntern.pdf"
 import BAIntern from "../assets/resume/Natthakan_Jamratphum_BAInternship_Resume.pdf"
+import FrontendIntern from "../assets/resume/Natthakan_Jamratphum_FrontEnd.pdf"
 import TranScript from "../assets/resume/Natthakan_Jamratphum_Eng_Transcript.pdf"
+
+
 
 export const profile = {
   name: 'Natthakan Jamratphum',
   nickname: 'Fay',
   roles: ['Frontend Developer', 'QA Tester', 'Business Analyst'],
-  bio: 'Computer Science student passionate about building clean UIs, ensuring software quality, and analyzing business needs to create impactful digital products.',
-  email: 'natthakanjam26@gmail.com',
+  bio: 'Software Engineering student passionate about building clean, responsive UIs, ensuring rigorous software quality, and translating business needs into impactful digital products. Based in Nakhon Pathom, Thailand, I am actively seeking internship opportunities to contribute and grow as a Frontend Developer, QA Engineer, or Business Analyst.',
+  email: 'natthaan57101@gmail.com',
   phone: '+66 82 150 5710',
   location: 'Nakhon Pathom, Thailand',
   socials: {
@@ -42,24 +47,30 @@ export const projects = [
     tech: ['React', 'Socket.io', 'TailwindCSS', 'zustand'],
     contribution: 'Designed UI and implemented recommendation algorithm.',
     github: 'https://github.com/ntkfxy/Mern_chat.git',
-    image: 'https://images.unsplash.com/photo-1574267432553-4b4628081c31?w=800',
+    image: mernChat,
   },
   {
     title: 'Portfolio Website',
     desc: 'Personal portfolio showcasing projects, skills, and experience.',
     tech: ['React', 'TailwindCSS', 'Framer Motion'],
     contribution: 'Designed and developed entire site from scratch.',
-    github: '#', demo: '#',
-    image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800',
+    github: 'https://github.com/ntkfxy/portfolio-Natthakan.git', demo: 'https://portfolio-natthakan.vercel.app/',
+    image: portfolio,
   },
 ]
 
 export const experience = [
+ { 
+  year: '2023 - Present', 
+  title: 'Documentation & Student Support Assistant — Student Loan Office', 
+  desc: 'Audited 200+ applications for data integrity, aligning with BA/QA logic; sharpened exceptional attention to detail vital for UI pixel-perfection and debugging.' 
+},
   { 
   year: '2025', 
   title: 'Senior Project — E-Commerce Platform', 
   desc: 'Led frontend development for a 4-person team; built responsive mobile layouts and multi-page features, integrated Stripe payment, and implemented the notification system.' 
 }
+
 ]
 
 export const certificates = [
@@ -72,7 +83,7 @@ export const certificates = [
 
 export const resumes = [
   { role: 'TranScript', file: TranScript },
-  { role: 'Frontend Developer', file: './resume' },
+  { role: 'Frontend Developer', file: FrontendIntern },
   { role: 'QA Tester', file: QAIntern },
   { role: 'Business Analyst', file: BAIntern },
 ]
