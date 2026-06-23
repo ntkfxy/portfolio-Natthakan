@@ -5,7 +5,7 @@ import storemate from "../assets/img/storemate.png"
 import portfolio from "../assets/img/portfolio.png"
 import mernChat from "../assets/img/mernChat.png"
 import QAIntern from "../assets/resume/Natthakan_Jamratphum_QAIntern.pdf"
-import BAIntern from "../assets/resume/Natthakan_Jamratphum_BAInternship_Resume.pdf"
+import BAIntern from "../assets/resume/Natthakan_Jamratphum_BAIntern.pdf"
 import FrontendIntern from "../assets/resume/Natthakan_Jamratphum_FrontEnd.pdf"
 import TranScript from "../assets/resume/Natthakan_Jamratphum_Eng_Transcript.pdf"
 
